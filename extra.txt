@@ -1,0 +1,17 @@
+2019-03-15
+client folder->npm i react-router-dom
+exact key used in path='/' because load at once in that route
+rcc -> tab -> class base component in react
+#in react we use link keyword, without use <a and href = to />   key words
+import { Link } from 'react-router-dom'
+
+2019-03-16
+without user bind(),we can use arrow function
+npm i axios = Axios is a lightweight HTTP client based on the $http service, similar to the Fetch API.
+npm i classnames = simple JavaScript utility for conditionally joining classNames together
+npm i redux react-redux redux-thunk
+
+2019-03-17
+import { withRouter } from 'react-router-dom';
+this.props.history
+npm i jwt-decode
