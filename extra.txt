@@ -15,3 +15,7 @@ npm i redux react-redux redux-thunk
 import { withRouter } from 'react-router-dom';
 this.props.history
 npm i jwt-decode
+
+2019-03-20
+npm i moment react-moment //date formatter
+
