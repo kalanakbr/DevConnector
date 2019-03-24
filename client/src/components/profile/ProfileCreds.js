@@ -14,10 +14,10 @@ class ProfileCreds extends Component {
         </p>
         <p><strong>Position:</strong>{exp.title}</p>
         <p>
-          {exp.location === ' ' ? null : (<span><storng>Location: </storng>{exp.location}</span>)}
+          {exp.location === ' ' ? null : (<span><strong>Location: </strong>{exp.location}</span>)}
         </p>
         <p>
-        {exp.description === ' ' ? null : (<span><storng>Description: </storng>{exp.description}</span>)}
+        {exp.description === ' ' ? null : (<span><strong>Description: </strong>{exp.description}</span>)}
         </p>
       </li>
     )); 
@@ -34,7 +34,7 @@ class ProfileCreds extends Component {
         <strong>Field of Study:</strong>{edu.fieldofstudy}
         </p>
         <p>
-        {edu.description === ' ' ? null : (<span><storng>Description: </storng>{edu.description}</span>)}
+        {edu.description === ' ' ? null : (<span><strong>Description: </strong>{edu.description}</span>)}
         </p>
       </li>
     ));
